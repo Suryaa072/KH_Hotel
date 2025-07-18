@@ -52,19 +52,21 @@ const CartPage = ({
                         <p className="item-price">₹{item.price} each</p>
                       </div>
                       <div className="quantity-controls">
-                        <button
-                          onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                          className="qty-btn"
-                        >
-                          <Minus className="qty-icon" />
-                        </button>
-                        <span className="quantity">{item.quantity}</span>
-                        <button
-                          onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                          className="qty-btn"
-                        >
-                          <Plus className="qty-icon" />
-                        </button>
+                        <div className="qty-controls">
+                          <button
+                            onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                            className="qty-btn"
+                          >
+                            <Minus className="qty-icon" />
+                          </button>
+                          <span className="quantity">{item.quantity}</span>
+                          <button
+                            onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                            className="qty-btn"
+                          >
+                            <Plus className="qty-icon" />
+                          </button>
+                        </div>
                         <div className="item-total">
                           ₹{item.price * item.quantity}
                         </div>

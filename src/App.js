@@ -133,7 +133,7 @@ const App = () => {
       tamilName: 'முட்டை லாப்பா', 
       price: 40, 
       category: 'Parotta', 
-      image: 'https://www.archanaskitchen.com/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/20-nov/Srilankan_Ceylon_Egg_Muttai_Parotta_Paratha_Recipe-1_400.jpg',
+      image: 'https://cdn.uengage.io/uploads/7057/image-1684-1716214761.jpeg',
       description: 'Egg curry preparation'
     },
     { 
